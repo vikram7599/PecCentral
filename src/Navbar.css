@@ -1,0 +1,52 @@
+.topnav {
+    overflow: hidden;
+    background-color: rgb(21, 76, 118);
+	height: 50px;
+	margin-bottom: 10px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+.topnav a {
+        float: right;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 20px;
+}
+
+.topnav a:hover {
+            background-color: none;
+            color: #7DCADA;
+}
+
+        .topnav a.active {
+            background-color: rgb(21, 76, 138);
+            color: white;
+        }
+
+#search {
+  width: 300px;
+  height: 40px;
+  float: center;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 200px;
+}
+
+#navbar-button {
+  float: center;
+  height: 40px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}

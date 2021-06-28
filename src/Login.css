@@ -1,0 +1,64 @@
+.body-login {
+    background-image: url("./resource/loginbackground.jpg");
+    background-size:cover;
+}
+
+.container-login {
+	position: relative;
+}
+
+.container-form {
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}
+
+.formlogin {
+    margin-top: 150px;
+    margin-right: 530px;
+    position: absolute;
+    right: 0;
+    max-width: 400px;
+    height: auto;
+    padding: 20px;
+    background-color: whitesmoke;
+	border-radius: 10px;
+}
+
+input.login {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 4px;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+input[type=text].login:focus, input[type=password].login:focus {
+        background-color: white;
+        outline: none;
+    }
+
+
+.loginButton {
+    width:100%;
+    margin-top: 40px;
+	background-color: #008CBA;
+	border: 2px solid #fff;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    align-content: center;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.loginButton:hover {
+	border: 2px solid #519e8a;
+}
+
+#username {
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: black;
+}

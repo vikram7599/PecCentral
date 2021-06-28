@@ -1,0 +1,10 @@
+PEC Collab
+ 1. Project Display Module - Upload open-source side projects, ig channel, youtube channel, Learning Resources, Type of project, ideas   
+ 2. Coding Platform
+ 3. Resource Sharing 
+
+Abstract:
+Sign-in and Sign-up
+Displaying Side Project - Project, Blogs. 
+Learning Resources - Resources from where they are learning or the links. 
+ 

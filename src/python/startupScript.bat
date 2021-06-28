@@ -1,0 +1,5 @@
+start /min /d "C:\Users\dell\Desktop\pec-central" cmd /k "npm start" 
+start /min cmd /k python "newsfeedbackend.py"
+start /min cmd /k python "loginbackend.py"
+start /min cmd /k python "signupbackend.py"
+start /min cmd /k python "formpostbackend.py"

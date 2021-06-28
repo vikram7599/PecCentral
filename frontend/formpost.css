@@ -1,0 +1,79 @@
+﻿.formpostbackground-image {
+    background-image: url("/background.jpg");
+    height:753px;
+    /* Center and scale the image nicely */
+    background-size: cover;
+}
+
+.formpost {
+    border: 2px solid rgb(21, 76, 138);
+    background-image: linear-gradient(rgb(21, 76, 118), white);
+    width:750px;
+    margin-left: 340px;    
+    border-radius: 0px;
+    margin-top:15px;
+    padding:15px;
+    height:auto;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=url] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+button[type=submit] {
+    margin-top: 20px;
+    background-image: linear-gradient(rgb(21, 76, 118), black);
+    color: white;
+    font-size: 15px;
+    padding: 6px 10px;
+    align-content: center;
+    border: 2px solid black;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+#username {
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+#type {
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+#category {
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+#url {
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}

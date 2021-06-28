@@ -1,0 +1,44 @@
+.userProfileDropbox {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+	background-color: white;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 2px solid #00C4CF;
+}
+
+	.userProfileDropbox a {
+		color: rgb(21, 76, 118);
+		text-align: center;
+		padding: 5px;
+		text-decoration: none;
+		font-size: 17px;
+		display: block;
+		border-radius: 10px;
+	}
+
+.userProfileDropbox a:hover {
+    background-color: rgb(21, 76, 118);
+    color: white;
+}
+
+.userProfileNameText {
+  color: grey;
+  font-size: 18px;
+}
+
+
+.userProfileDropboxImage {
+	margin-top: 5px;
+	border-radius: 50%;
+	border: 2px solid #00C4CF;
+	height: 60px;
+	width: 60px;
+  text-align: center;
+  
+}

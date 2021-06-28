@@ -1,0 +1,80 @@
+.body-formpost {
+    background-image: url("./resource/bg16.jpg");
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.container-Formpost {
+	position: relative;
+}
+
+.formpost {
+    border: 2px solid rgb(21, 76, 138);
+    background-image: linear-gradient(rgb(21, 76, 118), white);
+    width:500px;
+    margin-left: 55%;
+    padding:15px;
+	margin-bottom: 15px;
+    height:auto;
+	position: absolute;
+	margin-top: 65px;
+	z-index: -1;
+}
+
+.formpost-text {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.formpost-url {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.button1 {
+    margin-top: 20px;
+    background-image: linear-gradient(rgb(21, 76, 118), black);
+    color: white;
+    font-size: 15px;
+    padding: 6px 10px;
+    align-content: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#formpost-username {
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: black;
+}
+
+#formpost-type {
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: black;
+}
+
+#formpost-category {
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: black;
+}
+
+#formpost-url {
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: black;
+}

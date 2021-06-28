@@ -1,0 +1,36 @@
+.body-Newsfeed  {
+  background-image: url('./resource/back1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container-Newsfeed {
+	position: relative;
+}
+
+.containerPost {
+	position: absolute;
+	margin-top: 65px;
+	width: 100%;
+	z-index: -1;
+}
+
+.newsfeedLoading {
+	height: auto;
+	margin-top: 20px;
+}
+
+.newsfeedLoadingText {
+	border: 5px solid #f4f4f4;
+	width: 100%;
+	height: auto;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	position: realtive;
+	font-family: 'Rokkitt', serif;
+	font-size: 15px;
+	color: #8d8d8d;
+	margin-left: 5px;
+	margin-right: 5px;
+}

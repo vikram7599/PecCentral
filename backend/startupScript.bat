@@ -1,0 +1,8 @@
+start /min /d "C:\Users\jain\Desktop\deploy_project\frontend" cmd /k "npm start" 
+start /min cmd /k python "newsfeedbackend.py"
+start /min cmd /k python "loginbackend.py"
+start /min cmd /k python "signupbackend.py"
+start /min cmd /k python "formpostbackend.py"
+start /min cmd /k python "findfriendsbackend.py"
+start /min cmd /k python "tokenverify.py"
+start /min cmd /k python "editprofilebackend.py"

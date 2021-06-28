@@ -1,0 +1,19 @@
+﻿.formforgot {
+    margin-top: 160px;
+    margin-right: 530px;
+    position: absolute;
+    right: 0;
+    max-width: 450px;
+    height: auto;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+input[type=email].forgot, input[type=text].forgot {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 4px;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+

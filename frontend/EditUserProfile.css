@@ -1,0 +1,116 @@
+.edit-profile-container {
+	position: relative;
+	padding-top: 65px;
+	z-index: -1;
+}
+
+.left-side {
+	border: 1px solid #f4f4f4;
+	width: 400px;
+	height: auto;
+	background-color: white;
+	margin-left: 1%;
+	margin-top: 1%;
+	position: fixed;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.right-side {
+	border: 1px solid #f4f4f4;
+	position: absolute;
+	width: 62%;
+	height: auto;
+	background-image: url('./resource/cloud.jpg');
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+	margin-left: 33%;
+	margin-top: 1%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.left-top {
+	background-image: url('./resource/cloud.jpg');
+	height: 150px;
+	background-size: cover;
+}
+
+.profile-image{
+	border-radius: 50%;
+	border: 2px solid #00C4CF;
+	height: 150px;
+	width: 150px;
+	text-align: center;
+	z-index: 1;
+	margin-top: -75px;
+	margin-left: 29%;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+
+.user-details {
+	font-family: 'Rokkitt', serif;
+	font-size: 20px;
+	color: #8d8d8d;
+	margin-left: 2%;
+}
+
+.profile-icons {
+	font-size: 20px;
+	margin-left: 2%;
+	margin-right: 20px;
+}
+
+.tablink:hover {
+	background-color: none;
+            color: #7DCADA;
+}
+
+.tablink {
+        background-color: rgb(21, 76, 118);
+		color: white;
+		border: none;
+		cursor: pointer;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 20px;
+		margin-top: 3px;
+		margin-bottom: 3px;
+		margin-left: 5px;
+		margin-right: 5px;
+}
+
+.tabs {
+    overflow: hidden;
+    background-color: rgb(21, 76, 118);
+	height: 51px;
+	margin-bottom: 10px;
+}
+
+.containerMyPost {
+	width: 100%;
+	margin-left: -5%;
+}
+
+.my-post-box {
+	position: relative;
+}
+
+.editableOption {
+	position: absolute;
+	top: 3px;
+	right: 140px;
+	font-size: 30px;
+	background-color: white;
+	border: 1px solid #00C4CF;
+	color: #8d8d8d;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	cursor: pointer;
+	}
+	
+.container-myprofile {
+	position: relative;
+}
